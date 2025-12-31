@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discover What Changed</title>
+  <meta name="description" content="A short story and a simple next step." />
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --card: rgba(255,255,255,0.06);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.70);
+      --border: rgba(255,255,255,0.12);
+      --btn: rgba(255,255,255,0.92);
+      --btnText: #0b0f1a;
+      --shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1000px 600px at 20% 10%, rgba(140, 189, 255, 0.20), transparent 60%),
+        radial-gradient(900px 700px at 80% 30%, rgba(255, 200, 140, 0.16), transparent 60%),
+        radial-gradient(900px 700px at 50% 90%, rgba(170, 255, 200, 0.12), transparent 60%),
+        var(--bg);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 28px 16px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 720px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .top {
+      padding: 28px 26px 10px 26px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 0.2px;
+    }
+    h1 {
+      margin: 16px 0 10px 0;
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 0 12px 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .story {
+      margin-top: 10px;
+      padding: 16px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+    }
+    .story p { margin: 0 0 10px 0; }
+    .story p:last-child { margin-bottom: 0; }
+    .cta {
+      padding: 18px 26px 26px 26px;
+      display: grid;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 0;
+      cursor: pointer;
+      background: var(--btn);
+      color: var(--btnText);
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      transition: transform .08s ease, opacity .12s ease;
+      user-select: none;
+    }
+    .btn:active { transform: scale(0.99); }
+    .sub {
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .footer {
+      margin-top: 12px;
+      color: rgba(255,255,255,0.55);
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      padding: 0 6px;
+    }
+    .links {
+      margin-top: 8px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .links a {
+      color: rgba(255,255,255,0.70);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-size: 12px;
+    }
+    @media (max-width: 480px) {
+      h1 { font-size: 28px; }
+      .top { padding: 24px 18px 10px 18px; }
+      .cta { padding: 16px 18px 22px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <section class="card" aria-label="Bridge page">
+      <div class="top">
+        <div class="badge" aria-label="Quick note">
+          <span>Quick read</span>
+          <span aria-hidden="true">•</span>
+          <span>then one step</span>
+        </div>
+
+        <h1>It wasn’t about trying harder.</h1>
+
+        <p>If you’re stuck and frustrated, I get it. I kept doing “the right things” and still felt like nothing changed.</p>
+
+        <div class="story">
+          <p><strong>My pattern looked like this:</strong></p>
+          <p>• Start motivated, then hit a wall.</p>
+          <p>• Try another plan, feel good for a week, then back to the same place.</p>
+          <p>• Blame discipline, sleep, stress… everything.</p>
+          <p><strong>What helped was learning what I’d been missing</strong>—and then following a simple step-by-step explanation.</p>
+        </div>
+
+        <p style="margin-top:12px;">If you want to see the full explanation I used, tap below.</p>
+      </div>
+
+      <div class="cta">
+        <a class="btn" href="https://getsumatratonic.com/welcome/#aff=Namen213" rel="nofollow noopener" target="_blank">
+          See the full explanation
+          <span aria-hidden="true">→</span>
+        </a>
+        <div class="sub">Opens in a new tab. Take a quick look and decide for yourself.</div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div><strong>Disclosure:</strong> This page contains an affiliate link. If you choose to purchase, I may earn a commission at no extra cost to you.</div>
+      <div style="margin-top:6px;">This content is for informational purposes only and is not medical advice. Individual results vary.</div>
+      <div class="links">
+        <a href="#" onclick="alert('Tip: Create a privacy policy page on your site or use a free generator, then replace this link.'); return false;">Privacy</a>
+        <a href="#" onclick="alert('Tip: Add a contact email (e.g., support@yourdomain.com) and replace this link.'); return false;">Contact</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
